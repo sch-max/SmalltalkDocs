@@ -70,7 +70,7 @@ const SearchExplorer = () => {
         <ul>
           {searchErrorMsg.length > 0 ? <li>{searchErrorMsg}</li> : null}
           {fetchedClasses.map(aClass => (
-            <ClassResultItem aclass={aClass} />
+            <ClassResultItem aClass={aClass} />
           ))}
           {fetchedMethods.map(aMethod => (
             <MethodResultItem aMethod={aMethod} />
