@@ -69,8 +69,8 @@ const SearchExplorer = () => {
         {loadingSearchResults ? <CircularProgress /> : null}
         <ul>
           {searchErrorMsg.length > 0 ? <li>{searchErrorMsg}</li> : null}
-          {fetchedClasses.map(aclass => (
-            <ClassResultItem aclass={aclass} />
+          {fetchedClasses.map(aClass => (
+            <ClassResultItem aclass={aClass} />
           ))}
           {fetchedMethods.map(aMethod => (
             <MethodResultItem aMethod={aMethod} />
