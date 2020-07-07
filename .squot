@@ -3,5 +3,6 @@ OrderedDictionary {
 	'packages\/SmalltalkDocs-Core.package' : #SquotCypressCodeSerializer,
 	'packages\/SmalltalkDocs-Tests.package' : #SquotCypressCodeSerializer,
 	'frontend\/test' : #SquotTextFileCodec,
-	'frontend\/dict' : #SquotSmartRefStreamSerializer
+	'frontend\/dict' : #SquotSmartRefStreamSerializer,
+	'frontend\/test2' : #SquotTextFileCodec
 }
