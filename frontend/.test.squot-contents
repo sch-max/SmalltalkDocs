@@ -1,0 +1,5 @@
+SquotTrackedObjectMetadata {
+	#objectClassName : #ByteString,
+	#serializer : #SquotTextFileCodec,
+	#objectsReplacedByNames : true
+}
